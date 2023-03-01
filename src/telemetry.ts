@@ -3337,7 +3337,7 @@ export class IEventNamePropertyMapping {
         /**
          * Extension Id that's attempting to use the API.
          */
-        extensionId: string;
+        clientExtId: string;
         /**
          * Name of the API member used.
          */
@@ -3347,7 +3347,7 @@ export class IEventNamePropertyMapping {
         feature: 'N/A',
         source: 'N/A',
         properties: {
-            extensionId: {
+            clientExtId: {
                 classification: 'PublicNonPersonalData',
                 purpose: 'FeatureInsight'
             },
